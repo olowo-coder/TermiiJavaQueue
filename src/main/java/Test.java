@@ -1,0 +1,22 @@
+import java.util.List;
+
+public class Test {
+    public static void main(String[] args) {
+        Priorities pr = new Priorities();
+        List<String> input = List.of("12",
+                "ENTER John 3.75 50",
+                "ENTER Mark 3.8 24",
+                "ENTER Shafaet 3.7 35",
+                "SERVED",
+                "SERVED",
+                "ENTER Samiha 3.85 36",
+                "SERVED",
+                "ENTER Ashley 3.9 42",
+                "ENTER Maria 3.6 46",
+                "ENTER Anik 3.95 49",
+                "ENTER Dan 3.95 50",
+                "SERVED");
+
+        System.out.println(pr.getStudents(input));
+    }
+}

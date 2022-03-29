@@ -17,7 +17,7 @@ public class Priorities {
                 queue.add(student);
             }
         }
-        List<Student> remaining = new ArrayList<Student>();
+        List<Student> remaining = new ArrayList<>();
         while (!queue.isEmpty()) {
             remaining.add(queue.poll());
         }
